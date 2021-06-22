@@ -7,19 +7,19 @@ import Col from "../components/Col";
 function Home() {
     return (
         <div className="">
-<Container style={{ marginTop: 30 }}>
-    <Row>
-        <Col size="md-12">
-            <h1 className="">Home</h1>
-            </Col>
-        </Row>
-        <Row>
-            <Col size="md-12">
+            <Container style={{ marginTop: 30 }}>
+                <Row>
+                    <Col size="md-12">
+                        <h1 className="">Home</h1>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col size="md-12">
 
-                </Col>
-            </Row>
-    
-    </Container> 
+                    </Col>
+                </Row>
+
+            </Container>
 
         </div>
     );
