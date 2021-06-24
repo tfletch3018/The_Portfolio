@@ -59,13 +59,17 @@ At a minimum, your portfolio should include the following:
 ```
 ## Usage
 
-<img src="src\images\demo.gif" />
+<img src="" />
 
-<img src="src\images\Screenshot.png" />
+<img src="" />
 
-<img src="src\images\Screenshot2.png" />
+<img src="" />
 
-<img src="src\images\Screenshot3.png" />
+<img src="" />
+
+<img src="" />
+
+<img src="" />
 
 ## License
 MIT License
