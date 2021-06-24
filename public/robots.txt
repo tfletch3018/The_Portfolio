@@ -1,4 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
-Sitemap: https://kaustubhai.netlify.app/sitemap.xml
+Sitemap: https://tfletch3018.github.io/The_Portfolio/
 User-agent: *
 Disallow:
