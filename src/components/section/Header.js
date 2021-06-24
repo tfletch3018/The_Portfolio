@@ -1,6 +1,7 @@
 import React from 'react';
 import HeaderButton from '../layouts/HeaderButton'
 import { header } from '../../profile'
+import bitmoji from '../../styles/images/bitmoji.jpg'
 
 const Header = () => {
 
@@ -38,7 +39,7 @@ const Header = () => {
             </label>
             <HeaderButton/>
             </div>
-            <img id="not-dark" onClick={scrollTo} alt="Contact Me" title="Contact Me" className="gtp" src="profile.jpg"></img>
+            <img id="not-dark" onClick={scrollTo} alt="Contact Me" title="Contact Me" className="gtp" src={bitmoji}></img>
         </div>
     )
     
