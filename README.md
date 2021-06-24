@@ -1,7 +1,5 @@
 # The_Portfolio
 
-# React-Portfolio
-
 ## Description
 - The task: "Now that you've worked with React and have multiple projects to share, you'll be updating your portfolio and other materials to build toward being employer competitive. Creating a portfolio using React will help set you apart from other developers whose portfolios do not use some of the latest technologies."
 
@@ -41,14 +39,6 @@ As with the previous portfolio homework, "good" design is subjective. Your site 
 * If you want to go above and beyond, try using animations and react component libraries. Note 
 that this will _not_ affect your grade, but it may impact how potentials employers gauge your knowledge.
 
-### React
-Additionally, this new portfolio should be created using React.
-At a minimum, your portfolio should include the following:
-* A `Header` component that appears on multiple pages
-* A single `Project` component that will be used multiple times on a single page 
-* Navigation with React Router, dynamic rendering, or another third part router
-* A `Footer` component that appears on multiple pages
-
 ## Installation
 ```
 •Open up your terminal of choice
@@ -59,17 +49,17 @@ At a minimum, your portfolio should include the following:
 ```
 ## Usage
 
-<img src="" />
+<img src="src\styles\images\demo.gif" />
 
-<img src="" />
+<img src="src\styles\images\screenshot1.png" />
 
-<img src="" />
+<img src="src\styles\images\screenshot2.png" />
 
-<img src="" />
+<img src="src\styles\images\screenshot3.png" />
 
-<img src="" />
+<img src="src\styles\images\screenshot4.png" />
 
-<img src="" />
+<img src="src\styles\images\screenshot5.png" />
 
 ## License
 MIT License
@@ -102,8 +92,8 @@ Make sure to update your LinkedIn Profile with the new skills you've acquired si
 [Linkedin](http://linkedin.com/in/tonya-fletcher-733a9450)
 
 ## Features
-[My repo](https://github.com/tfletch3018/React-Portfolio)
+[My repo](https://github.com/tfletch3018/The_Portfolio)
 
-[Deployed on Github-Pages](https://tfletch3018.github.io/React-Portfolio/#/)
+[Deployed on Github-Pages](https://tfletch3018.github.io/The_Portfolio/)
 
-[Watch the demo!](https://drive.google.com/file/d/1t3k_clBOsg_pYLcm7G1NilS1CiavAcL1/preview)
+[Watch the demo!](https://drive.google.com/file/d/10w_NGLUDD3CO3-BC16y7kKFjmGbebZ1d/view?usp=sharing)
