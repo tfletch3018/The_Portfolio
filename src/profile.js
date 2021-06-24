@@ -140,7 +140,7 @@ const miscellaneous = [
 const section5Title = "Get in Touch";
 const contact = {
   pitch:
-    "Junior Full Stack Web Developer with a passion for creating solutions that address the challenges of today.  Let's connect!",
+    "I have a passion for creating solutions that address the challenges of today.  Let's connect!",
   copyright: "Tonya Fletcher",
   contactUrl: "https://form.jotform.com/211736638235155",
 };
