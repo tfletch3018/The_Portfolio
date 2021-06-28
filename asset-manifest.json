@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/The_Portfolio/static/css/main.3d718d09.chunk.css",
-    "main.js": "/The_Portfolio/static/js/main.4089feef.chunk.js",
-    "main.js.map": "/The_Portfolio/static/js/main.4089feef.chunk.js.map",
+    "main.css": "/The_Portfolio/static/css/main.bf433796.chunk.css",
+    "main.js": "/The_Portfolio/static/js/main.98dc037c.chunk.js",
+    "main.js.map": "/The_Portfolio/static/js/main.98dc037c.chunk.js.map",
     "runtime-main.js": "/The_Portfolio/static/js/runtime-main.7e82fbf2.js",
     "runtime-main.js.map": "/The_Portfolio/static/js/runtime-main.7e82fbf2.js.map",
     "static/css/2.a7a85ca3.chunk.css": "/The_Portfolio/static/css/2.a7a85ca3.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.b1e5a9fb.chunk.js.map": "/The_Portfolio/static/js/2.b1e5a9fb.chunk.js.map",
     "index.html": "/The_Portfolio/index.html",
     "static/css/2.a7a85ca3.chunk.css.map": "/The_Portfolio/static/css/2.a7a85ca3.chunk.css.map",
-    "static/css/main.3d718d09.chunk.css.map": "/The_Portfolio/static/css/main.3d718d09.chunk.css.map",
+    "static/css/main.bf433796.chunk.css.map": "/The_Portfolio/static/css/main.bf433796.chunk.css.map",
     "static/js/2.b1e5a9fb.chunk.js.LICENSE.txt": "/The_Portfolio/static/js/2.b1e5a9fb.chunk.js.LICENSE.txt",
     "static/media/images.css": "/The_Portfolio/static/media/st.croix.136c5578.JPG",
     "static/media/bitmoji.34c89fdd.jpg": "/The_Portfolio/static/media/bitmoji.34c89fdd.jpg"
@@ -19,7 +19,7 @@
     "static/js/runtime-main.7e82fbf2.js",
     "static/css/2.a7a85ca3.chunk.css",
     "static/js/2.b1e5a9fb.chunk.js",
-    "static/css/main.3d718d09.chunk.css",
-    "static/js/main.4089feef.chunk.js"
+    "static/css/main.bf433796.chunk.css",
+    "static/js/main.98dc037c.chunk.js"
   ]
 }
