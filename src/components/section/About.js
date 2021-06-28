@@ -14,7 +14,7 @@ const About = () => {
                         <div className="About-title-box">
                             <h1 id="About" className="red-line">{section2title}</h1>
                         </div>
-                        <img src={compressed} alt="profile" />
+                        <img id="not-dark2" src={compressed} alt="profile" />
                         <p className="lead about-text">
                             {about.paragraph}
                         </p>
