@@ -7,20 +7,20 @@
 }
 
 .h4, h4 {
-    font-size: 12px;
-    font-weight:200;
+    font-size: .25rem;
+    font-weight:400;
 }
 
 .project-card h4 {
     color: var(--primary-color);
     margin-top: 10px;
     margin-left: 3%;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .project-card h4:hover {
     color: var(--hover-color);
     margin-top: 10px;
     margin-left: 3%;
-    font-weight: 500;
+    font-weight: 400;
 }
