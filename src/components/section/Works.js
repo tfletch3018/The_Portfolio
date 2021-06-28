@@ -13,7 +13,7 @@ const Works = () => {
                 </>
                 <div className="row">
                 {projects && projects.map((x) => 
-                <Project id={x.id} url={x.url} name={x.name} skills={x.skills}/>
+                <Project id={x.id} url={x.url} name={x.name} skills={x.skills} deployed={x.deployed} />
                 )}
                 </div>
             </div>
