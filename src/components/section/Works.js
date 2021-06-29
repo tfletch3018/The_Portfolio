@@ -3,7 +3,8 @@ import Project from '../layouts/Project'
 import Misc from "../layouts/Misc"
 import { projects, miscellaneous, section3Title, section4Title } from '../../profile'
 
-const Works = () => {
+
+function Works() {
     return (
         <>
             <div data-aos="zoom-in-up" data-aos-once="true" className="third">
@@ -18,6 +19,8 @@ const Works = () => {
                     )}
                 </div>
             </div>
+
+            
 
             <div className="third">
                 <>

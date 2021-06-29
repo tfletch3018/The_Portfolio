@@ -4,7 +4,7 @@ import { about, skillsBar, section2title } from '../../profile'
 import compressed from "../../styles/images/compressed.jpg";
 import Container from "../Container";
 
-const About = () => {
+function About() {
     return (
 
         <Container>

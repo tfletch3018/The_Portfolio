@@ -3,7 +3,7 @@ import HeaderButton from '../layouts/HeaderButton'
 import { header } from '../../profile'
 import bitmoji from '../../styles/images/bitmoji.jpg'
 
-const Header = () => {
+function Header() {
 
     const scrollTo = () => {
         window.scrollTo({

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Project = ({id, name, url, deployed, skills}) => {
+function Project({id, name, url, deployed, skills}) {
     return (
         <div data-aos="fade-up" className=" col-12 col-lg-4 project-card">
             <div className="image-project">

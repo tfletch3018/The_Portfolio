@@ -1,7 +1,7 @@
 import React from 'react'
 import { contact, section5Title, social } from '../../profile'
 
-const Contact = () => {
+function Contact() {
     
     return (
         <div className="parallax">

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Misc = ({id, name}) => {
+function Misc({id, name}) {
     return (
         <div data-aos="fade-up" className=" col-12 col-lg-4 project-card">
             <div className="image-project">

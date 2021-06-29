@@ -2,7 +2,7 @@ import React from 'react'
 import Particles from 'react-particles-js'
 import { background } from '../../profile'
 
-const ParticlesBackground = () => {
+function ParticlesBackground() {
     return (
         <div className="particle">
             { background.type === 'Snow' && <Particles
