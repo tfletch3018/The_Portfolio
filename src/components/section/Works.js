@@ -1,5 +1,6 @@
 import React from 'react'
 import Project from '../layouts/Project'
+import Misc from "../layouts/Misc"
 import { projects, miscellaneous, section3Title, section4Title } from '../../profile'
 
 const Works = () => {
@@ -12,9 +13,9 @@ const Works = () => {
                     </div>
                 </>
                 <div className="row">
-                {projects && projects.map((x) => 
-                <Project id={x.id} url={x.url} name={x.name} skills={x.skills} deployed={x.deployed} />
-                )}
+                    {projects && projects.map((x) =>
+                        <Project id={x.id} url={x.url} name={x.name} skills={x.skills} deployed={x.deployed} />
+                    )}
                 </div>
             </div>
 
@@ -25,8 +26,8 @@ const Works = () => {
                     </div>
                 </>
                 <div className="row">
-                    {miscellaneous && miscellaneous.map((x) => 
-                    <Project id={x.id} url={x.url} name={x.name} />
+                    {miscellaneous && miscellaneous.map((x) =>
+                        <Misc id={x.id} name={x.name} />
                     )}
                 </div>
             </div>
