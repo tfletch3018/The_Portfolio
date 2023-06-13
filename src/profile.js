@@ -72,10 +72,10 @@ const projects = [
   },
   {
     id: "project2",
-    name: "Workout Tracker",
-    skills: ["JS: 60.5%, CSS: 21.4%, HTML: 18.1%"],
-    deployed:"https://sleepy-fortress-48942.herokuapp.com/?id=60a09630599c3e00154d87aa",
-    url: "https://github.com/tfletch3018/Workout-Tracker",
+    name: "Weather Dashboard",
+    skills: ["JS: 64.1%, HTML: 25%, CSS: 10.9%"],
+    deployed:"https://tfletch3018.github.io/Weather-Dashboard/",
+    url: "https://github.com/tfletch3018/Weather-Dashboard",
   },
   {
     id: "project3",
