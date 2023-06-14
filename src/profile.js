@@ -79,10 +79,10 @@ const projects = [
   },
   {
     id: "project3",
-    name: "Neighborly",
-    skills: ["JS: 90.8%, CSS: 7.3%, HTML: 1.9%"],
-    deployed:"https://intense-beyond-20958.herokuapp.com/",
-    url: "https://github.com/tfletch3018/Neighborly",
+    name: "The Employee Directory",
+    skills: ["JS: 76.3%, HTML: 14.2%, CSS: 9.5%"],
+    deployed:"https://tfletch3018.github.io/the-employee-directory/",
+    url: "https://github.com/tfletch3018/the-employee-directory",
   },
   {
     id: "project4",
@@ -93,10 +93,10 @@ const projects = [
   },
   {
     id: "project5",
-    name: "The Employee Directory",
-    skills: ["JS: 76.3%, HTML: 14.2%, CSS: 9.5%"],
-    deployed:"https://tfletch3018.github.io/the-employee-directory/",
-    url: "https://github.com/tfletch3018/the-employee-directory",
+    name: "The Portfolio",
+    skills: ["CSS: 88.6%, JS: 10.3%, HTML: 1.1%"],
+    deployed:"https://tfletch3018.github.io/The_Portfolio/",
+    url: "https://github.com/tfletch3018/The_Portfolio",
   },
   {
     id: "project6",
