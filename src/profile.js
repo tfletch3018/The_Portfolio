@@ -86,10 +86,10 @@ const projects = [
   },
   {
     id: "project4",
-    name: "Note Taker",
-    skills: ["JS: 59.9%, HTML: 27.8%, CSS: 12.3%"],
-    deployed: "https://tfletchnote-taker.herokuapp.com/",
-    url: "https://github.com/tfletch3018/Note-Taker",
+    name: "Work Day Scheduler",
+    skills: ["HTML: 56.4%, JS: 31.1%, CSS: 12.5%"],
+    deployed: "https://tfletch3018.github.io/Work-Day-Scheduler/",
+    url: "https://github.com/tfletch3018/Work-Day-Scheduler",
   },
   {
     id: "project5",
