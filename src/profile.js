@@ -65,31 +65,31 @@ const section3Title = "Projects";
 const projects = [
   {
     id: "project1",
+    name: "myMusic",
+    skills: ["JS: 52.0%, HTML: 24.5%, CSS: 23.5%"],
+    deployed: "https://main.d3oxu15funiko7.amplifyapp.com/",
+    url: "https://github.com/tfletch3018/myMusic",
+  },
+  {
+    id: "project2",
     name: "babysittr",
     skills: ["JS: 86.0%, HTML: 8.9%, CSS: 5.1%"],
     deployed:"https://tfletch3018.github.io/babysittr/",
     url: "https://github.com/tfletch3018/babysittr",
   },
   {
-    id: "project2",
+    id: "project3",
     name: "Weather Dashboard",
     skills: ["JS: 64.1%, HTML: 25%, CSS: 10.9%"],
     deployed:"https://tfletch3018.github.io/Weather-Dashboard/",
     url: "https://github.com/tfletch3018/Weather-Dashboard",
   },
   {
-    id: "project3",
+    id: "project4",
     name: "The Employee Directory",
     skills: ["JS: 76.3%, HTML: 14.2%, CSS: 9.5%"],
     deployed:"https://tfletch3018.github.io/the-employee-directory/",
     url: "https://github.com/tfletch3018/the-employee-directory",
-  },
-  {
-    id: "project4",
-    name: "Work Day Scheduler",
-    skills: ["HTML: 56.4%, JS: 31.1%, CSS: 12.5%"],
-    deployed: "https://tfletch3018.github.io/Work-Day-Scheduler/",
-    url: "https://github.com/tfletch3018/Work-Day-Scheduler",
   },
   {
     id: "project5",

@@ -5,19 +5,19 @@
 }
 /* Projects Photo */
 .project1{
+    background-image: url('./images/myMusic.png');
+    cursor: none;
+}
+.project2{
     background-image: url('./images/babysittr.png');
     cursor: none;    
 }
-.project2{
+.project3{
     background-image: url('./images/weather_dashboard.png');
     cursor: none;
 }
-.project3{
-    background-image: url('./images/employee_directory.png');
-    cursor: none;
-}
 .project4{
-    background-image: url('./images/WorkDayScheduler.png');
+    background-image: url('./images/employee_directory.png');
     cursor: none;
 }
 .project5{
