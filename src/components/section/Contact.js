@@ -20,6 +20,8 @@ function Contact() {
                             {contact.pitch}
                         </p>
 
+
+
                         <div className="d-flex justify-content-center align-items-center flex-column">
                             <div className="inline-block">
                                 {social.linkedin && <a title="Visit Linkedin profile" rel="noopener noreferrer" target="_blank" href={social.linkedin}><i className="fab fa-linkedin"></i></a>}
