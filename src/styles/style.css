@@ -24,3 +24,31 @@
     margin-left: 3%;
     font-weight: 400;
 }
+
+.fab {
+    vertical-align: bottom;
+    padding: 10px;
+    font-size: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--primary-color);
+    transition: .5;
+}
+.fab:hover {
+    color: var(--hover-color);
+}
+
+.fas {
+    vertical-align: bottom;
+    padding: 10px;
+    font-size: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--primary-color);
+    transition: .5;
+}
+.fas:hover {
+    color: var(--hover-color);
+}

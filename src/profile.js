@@ -138,7 +138,7 @@ const social = {
   facebook: "https://www.facebook.com/tonya.r.fletcher/",
   linkedin: "https://www.linkedin.com/in/tonya-fletcher-733a9450/",
   instagram: "https://www.instagram.com/tfletch4504/",
-  resume: "https://drive.google.com/file/d/17DbwQBZecxzbgdpycnIilwh45uihriBj/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/131RLw2MfSL49xRvL0DOoKMkeIvbqPRRE/view?usp=drive_link",
 };
 
 export {
