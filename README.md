@@ -51,15 +51,9 @@ that this will _not_ affect your grade, but it may impact how potentials employe
 
 <img src="src\styles\images\demo.gif" />
 
-<img src="src\styles\images\screenshot1.png" />
+<img src="src\styles\images\screenshot.png" />
 
-<img src="src\styles\images\screenshot2.png" />
-
-<img src="src\styles\images\screenshot3.png" />
-
-<img src="src\styles\images\screenshot4.png" />
-
-<img src="src\styles\images\screenshot5.png" />
+<img src="src\styles\images\screenshot1.png" /> <img src="src\styles\images\screenshot2.png" /> <img src="src\styles\images\screenshot3.png" /> <img src="src\styles\images\screenshot4.png" />
 
 ## License
 MIT License
