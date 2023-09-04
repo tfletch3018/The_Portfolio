@@ -28,6 +28,7 @@ function Contact() {
                                 {social.facebook && <a title="Visit Facebok profile" rel="noopener noreferrer" target="_blank" href={social.facebook}><i className="fab fa-facebook"></i></a>}
                                 {social.instagram && <a title="Visit Instagram profile" rel="noopener noreferrer" target="_blank" href={social.instagram}><i className="fab fa-instagram"></i></a>}
                                 {social.github && <a title="Visit Github profile" rel="noopener noreferrer" target="_blank" href={social.github}><i className="fab fa-github"></i></a>}
+                                {social.tiktok && <a title="Visit Tiktok profile" rel="noopener noreferrer" target="_blank" href={social.tiktok}><i className="fab fa-tiktok"></i></a>}
                                 {social.resume && <a title="Download Resume" href={social.resume} download><i className="fas fa-download"></i></a>}
                                 <br />
                             </div>
