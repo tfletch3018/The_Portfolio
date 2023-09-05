@@ -28,11 +28,11 @@ const about = {
 
 const skillsBar = [
   {
-    name: "HTML5",
+    name: "HTML",
     faClass: "fab fa-html5",
   },
   {
-    name: "CSS3",
+    name: "CSS",
     faClass: "fab fa-css3",
   },
   {
@@ -44,7 +44,7 @@ const skillsBar = [
     faClass: "fab fa-node-js",
   },
   {
-    name: "Git",
+    name: "Github",
     faClass: "fab fa-git",
   },
   {
@@ -56,7 +56,11 @@ const skillsBar = [
     faClass: "fab fa-react",
   },
   {
-    name: "Database",
+    name: "AWS",
+    faClass: "fab fa-aws",
+  },
+  {
+    name: "MySQL",
     faClass: "fas fa-database",
   },
 ];
