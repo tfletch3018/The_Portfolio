@@ -4,8 +4,17 @@
 :root {
     --primary-color:  #ccccff;
     --hover-color:  #ccffe6;
+    --mist:#333333;
+    --golden:#ffff66;
 }
+h1 {
+    text-shadow: 2px 3px 4px var(--mist);
+ 
+}
+h2 {
+    text-shadow: 2px 3px 4px var(--mist);
 
+}
 .h4, h4 {
     font-size: 1rem;
     font-weight:400;
@@ -13,6 +22,7 @@
 
 .project-card h4 {
     color: var(--primary-color);
+    text-shadow: 2px 3px 4px var(--mist);
     margin-top: 10px;
     margin-left: 3%;
     font-weight: 400;
@@ -20,6 +30,10 @@
 a {
     color: transparent !important;
 }
+.see {
+    text-shadow: 2px 3px 4px var(--mist); 
+}
+
 .project-card h4:hover {
     color: var(--hover-color);
     margin-top: 10px;
@@ -42,6 +56,8 @@ a {
     text-align: center;
     text-decoration: none;
     color: var(--primary-color);
+    text-shadow: 2px 3px 4px var(--mist);
+
     transition: .5;
 }
 .fab:hover {
@@ -56,6 +72,8 @@ a {
     text-align: center;
     text-decoration: none;
     color: var(--primary-color);
+    text-shadow: 2px 3px 4px var(--mist);
+
     transition: .5;
 }
 .fas:hover {
