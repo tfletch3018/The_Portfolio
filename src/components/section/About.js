@@ -1,7 +1,7 @@
 import React from 'react'
 import Skills from '../layouts/Skills'
 import { about, skillsBar, section2title } from '../../profile'
-import compressed from "../../styles/images/compressed.jpg";
+import profile from "../../styles/images/profile.jpg";
 import Container from "../Container";
 
 function About() {
@@ -14,7 +14,7 @@ function About() {
                         <div className="About-title-box">
                             <h1 id="About" className="red-line">{section2title}</h1>
                         </div>
-                        <img id="not-dark2" src={compressed} alt="profile" />
+                        <img id="not-dark2" src={profile} alt="profile" />
                         <p className="lead about-text">
                             {about.paragraph}
                         </p>
