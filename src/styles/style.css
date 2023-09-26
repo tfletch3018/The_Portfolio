@@ -17,7 +17,9 @@
     margin-left: 3%;
     font-weight: 400;
 }
-
+a {
+    color: transparent !important;
+}
 .project-card h4:hover {
     color: var(--hover-color);
     margin-top: 10px;
@@ -27,9 +29,11 @@
 
 #myFab {
     vertical-align: 0%;
-    padding: 0px;
-    height: 10px;
+    padding: 0px 10px 0px;
+    height: 5px;
+    font-size: 23px;
 }
+
 .fab {
     vertical-align: bottom;
     padding: 10px;
@@ -40,10 +44,10 @@
     color: var(--primary-color);
     transition: .5;
 }
-
 .fab:hover {
     color: var(--hover-color);
 }
+
 .fas {
     vertical-align: bottom;
     padding: 10px;
@@ -56,4 +60,8 @@
 }
 .fas:hover {
     color: var(--hover-color);
+}
+
+a:hover, a:active, a:focus {
+    text-decoration-line: none;
 }
