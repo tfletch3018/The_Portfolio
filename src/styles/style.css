@@ -34,6 +34,10 @@ a {
     text-shadow: 2px 3px 4px var(--mist); 
 }
 
+.skill__square i:hover {
+    color: var(--hover-color) !important;
+}
+
 .project-card h4:hover {
     color: var(--hover-color);
     margin-top: 10px;
