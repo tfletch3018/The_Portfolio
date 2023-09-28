@@ -17,7 +17,7 @@ function ParticlesBackground() {
                         }
                     },
                     "color": {
-                        "value": "#000000"
+                        "value": ["#ccccff", "#ccffe6"]
                     },
                     "size": {
                         "value": 10,

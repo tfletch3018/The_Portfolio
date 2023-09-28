@@ -12,7 +12,7 @@ function About() {
                 <div data-aos="zoom-in-up" data-aos-once="true" className="row">
                     <div className="col-12 offset-md-1 col-md-12 about">
                         <div className="About-title-box">
-                            <h1 id="About" className="red-line">{section2title}</h1>
+                            <h5 id="About" className="red-line">{section2title}</h5>
                         </div>
                         <img id="not-dark2" src={profile} alt="profile" />
                         <p className="lead about-text">

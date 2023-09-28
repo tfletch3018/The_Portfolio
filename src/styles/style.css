@@ -9,24 +9,38 @@
 }
 h1 {
     text-shadow: 2px 3px 4px var(--mist);
- 
+}
+h1:hover{
+    color:#ccccff !important;
 }
 h2 {
     text-shadow: 2px 3px 4px var(--mist);
-
 }
+
 .h4, h4 {
     font-size: 1rem;
     font-weight:400;
 }
-
 .project-card h4 {
-    color: var(--primary-color);
+    color: #ccffe6;
     text-shadow: 2px 3px 4px var(--mist);
     margin-top: 10px;
     margin-left: 3%;
-    font-weight: 400;
+    font-weight: 500;
 }
+.project-card h4:hover {
+    color: #ccccff;
+}
+h5 {
+    font-size:  2.5rem !important;
+    font-weight: 700 !important;
+    color:#ccffe6 !important;
+    text-shadow: 2px 3px 4px var(--mist);
+}
+h5:hover{
+    color:#ccccff !important;
+}
+
 a {
     color: transparent !important;
 }
@@ -38,12 +52,7 @@ a {
     color: var(--hover-color) !important;
 }
 
-.project-card h4:hover {
-    color: var(--hover-color);
-    margin-top: 10px;
-    margin-left: 3%;
-    font-weight: 400;
-}
+
 
 #myFab {
     vertical-align: 0%;
