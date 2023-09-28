@@ -39,7 +39,7 @@ function Header() {
             </label>
             <HeaderButton/>
             </div>
-            <img id="not-dark" onClick={scrollTo} alt="Contact Me" title="Contact Me" className="gtp" src={bitmoji}></img>
+            <img id="not-dark" onClick={scrollTo} alt="Contact Me" title="Contact Me" className="myPic gtp" src={bitmoji}></img>
         </div>
     )
     

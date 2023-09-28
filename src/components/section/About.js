@@ -14,7 +14,7 @@ function About() {
                         <div className="About-title-box">
                             <h5 id="About" className="red-line">{section2title}</h5>
                         </div>
-                        <img id="not-dark2" src={profile} alt="profile" />
+                        <img class="myPic" id="not-dark2" src={profile} alt="profile" />
                         <p className="lead about-text">
                             {about.paragraph}
                         </p>

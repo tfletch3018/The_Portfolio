@@ -96,3 +96,14 @@ a {
 a:hover, a:active, a:focus {
     text-decoration-line: none;
 }
+
+.myPic {
+    border-radius: 10px;
+    background-color: transparent;
+    border: transparent;
+    box-shadow: 5px 3px 7px 4px #8c8c8c;
+}
+.myPic:hover {
+    box-shadow: 5px 3px 7px 4px #ccffe6;
+ 
+}
