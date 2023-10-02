@@ -4,6 +4,7 @@
 :root {
     --primary-color:  #ccccff;
     --hover-color:  #ccffe6;
+    --orchid:#ccccff;
     --mist:#333333;
     --golden:#ffff66;
 }
@@ -43,6 +44,9 @@ h5:hover{
 
 a {
     color: transparent !important;
+}
+.lead {
+    font-weight:400 !important;
 }
 .see {
     text-shadow: 2px 3px 4px var(--mist); 
