@@ -11,8 +11,8 @@ function About() {
             <div id="about" className="effect2">
                 <div data-aos="zoom-in-up" data-aos-once="true" className="row">
                     <div className="col-12 offset-md-1 col-md-12 about">
-                        <div className="About-title-box">
-                            <h5 id="About" className="red-line">{section2title}</h5>
+                        <div className="About">
+                            <h5 id="About">{section2title}</h5>
                         </div>
                         <img className="myPic" id="not-dark2" src={profile} alt="profile" />
                         <p className="lead about-text">
