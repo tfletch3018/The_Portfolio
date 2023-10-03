@@ -5,10 +5,12 @@
     --primary-color:  #ccccff;
     --hover-color:  #ccffe6;
     --orchid:#ccccff;
+    --cloudy: #bfbfbf;
     --mist:#333333;
     --golden:#ffff66;
 }
 h1 {
+    
     text-shadow: 2px 3px 4px var(--mist);
 }
 h1:hover{
