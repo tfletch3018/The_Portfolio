@@ -529,6 +529,8 @@ a:focus {
 }
 @media (max-width:320px) {
     .profile {
-        width: 250px;
+        width: 75%;
+        align-items: center;
+        justify-content: center;
     }   
 }
