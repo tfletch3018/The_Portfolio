@@ -1,6 +1,8 @@
 import React from 'react'
 import Container from '../Container';
 import { contact, section5Title, social } from '../../profile'
+// import MyScroll from "./Footer";
+import ScrollButton from "./Footer"
 
 function Contact() {
 
@@ -31,6 +33,12 @@ function Contact() {
                                 {social.tiktok && <a title="Visit Tiktok profile" rel="noopener noreferrer" target="_blank" href={social.tiktok}><i className="fab fa-tiktok"></i></a>}
                                 {social.resume && <a title="Download Resume" href={social.resume} download><i className="fas fa-download"></i></a>}
                                 <br />
+
+                  <>  
+                  <div className="center">              
+                                <ScrollButton/>
+                                </div> 
+                                </> 
                             </div>
 
                         </div>

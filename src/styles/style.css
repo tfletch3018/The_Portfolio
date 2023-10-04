@@ -3,13 +3,19 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
 :root {
-    --primary-color: #ccccff;
-    --hover-color: #ccffe6;
+    /* --primary-color: #ccccff; */
+    /* --hover-color: #ccffe6; */
+    --light: #ffffff;
     --orchid: #ccccff;
     --mint: #ccffe6;
+    --smoke:#f2f2f2;
     --cloudy: #bfbfbf;
+    --foggy: #a6a6a6;
+    --gray:#8c8c8c;
+    --grayer:#777777;
     --mist: #333333;
     --golden: #ffff66;
+    --dark:#000000;
 }
 
 *{
@@ -17,11 +23,11 @@
 }
 
 body {
-    background-color:#f2f2f2 !important
+    background-color:var(--smoke) !important;
 }
 
 html.dark-mode {
-    background-color: #000
+    background-color: var(--dark);
 }
 .dark-mode {
     filter: invert(1) hue-rotate(180deg);
@@ -36,10 +42,10 @@ html.dark-mode {
 .effect2 {
     position: relative;
     width: 70%;
-    background: #fff;
+    background: var(--light);
     padding: 5%;
     margin: 10% auto;
-    border-bottom: solid 1px #777 !important
+    border-bottom: solid 1px var(--grayer) !important
 }
 .effect2:after,
 .effect2:before {
@@ -51,10 +57,10 @@ html.dark-mode {
     width: 50%;
     top: 80%;
     max-width: 300px;
-    background: #777;
-    -webkit-box-shadow: 0 15px 10px #777;
-    -moz-box-shadow: 0 15px 10px #777;
-    box-shadow: 0 15px 10px #777;
+    background: var(--grayer);
+    -webkit-box-shadow: 0 15px 10px var(--grayer);
+    -moz-box-shadow: 0 15px 10px var(--grayer);
+    box-shadow: 0 15px 10px var(--grayer);
     -webkit-transform: rotate(-3deg);
     -moz-transform: rotate(-3deg);
     -o-transform: rotate(-3deg);
@@ -102,7 +108,7 @@ html.dark-mode {
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: #fff;
+    background-color: var(--light);
     -webkit-transition: .4s;
     transition: .4s
 }
@@ -143,7 +149,7 @@ input:checked+.slider:before {
     font-family: Montserrat, sans-serif
 }
 .Header h1 {
-    color: #000;
+    color: var(--dark);
     margin: auto;
     text-align: center;
     font-size: 5.5rem;
@@ -196,7 +202,7 @@ h1 {
 }
 
 h1:hover {
-    color: #ccccff !important;
+    color: var(--orchid) !important;
 }
 
 h2 {
@@ -211,113 +217,16 @@ h4 {
 h5 {
     font-size: 2.5rem !important;
     font-weight: 700 !important;
-    color: #ccffe6 !important;
+    color: var(--mint) !important;
     text-shadow: 2px 3px 4px var(--mist);
 }
 h5:hover {
-    color: #ccccff !important;
-}
-
-.third {
-    width: 75%;
-    margin: 10% auto;
-    align-items: center;
-    padding: 3%;
-    justify-content: center
-}
-
-.project-name {
-    text-decoration: none
-}
-.project-card {
-    padding: 15px;
-    margin-top: 15px;
-    box-shadow: rgba(17, 12, 46, .15) 0 48px 100px 0
-}
-
-.project-card h2 {
-    color: var(--orchid);
-    margin-top: 10px;
-    margin-left: 3%;
-    font-weight: 500
-}
-
-.project-card h2:hover {
-    color: var(--mint);
-    text-decoration: none
-}
-
-.project-card h3 {
-    text-align: left;
-    font-size: 1rem;
-    margin-left: 3%
-}
-
-.project-card h4 {
-    color: #ccffe6;
-    text-shadow: 2px 3px 4px var(--mist);
-    margin-top: 10px;
-    margin-left: 3%;
-    font-weight: 500;
-}
-
-.project-card h4:hover {
-    color: #ccccff;
-}
-
-.image-project {
-    height: 300px;
-    width: auto;
-    margin-bottom: 20px;
-    overflow: hidden;
-    cursor: pointer !important
-}
-
-.img-pro {
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s
-}
-
-.image-project:hover .img-pro {
-    transform: scale(1.2)
-}
-
-.pp-head {
-    text-align: center
-}
-.pp-head-line {
-    box-sizing: border-box;
-    width: 30%;
-    padding-bottom: 5px;
-    border-bottom: solid 2px var(--orchid);
-    margin-bottom: 15px
-}
-.pp-text {
-    font-size: 1.5rem
-}
-
-a {
-    color: transparent !important;
-}
-
-.lead {
-    font-weight: 400 !important;
-}
-.about-text {
-    width: 80%;
-    padding: 2%
+    color: var(--orchid) !important;
 }
 
 .see {
     background-color: var(--orchid);
-    color: #fff;
+    color: var(--light);
     text-shadow: 2px 3px 4px var(--mist);
     border: transparent;
     position: absolute;
@@ -328,10 +237,10 @@ a {
     top: 90%
 }
 .see:hover {
-    background-color: var(--hover-color)
+    background-color: var(--mint)
 }
 .fa-eye {
-    color: #fff !important;
+    color: var(--light) !important;
     font-size: 20px;
     padding-top: 7px;
     padding-bottom: 7px;
@@ -339,23 +248,117 @@ a {
     padding-right: 7px
 }
 
+.lead {
+    font-weight: 400 !important;
+}
+.about-text {
+    width: 80%;
+    padding: 2%
+}
+
 .skill__square {
     display: inline;
-    margin: 15px 0 !important
+    margin: 15px 0 !important;
 }
 .skill__square i {
-    font-size: 50px !important;
-    color: var(--orchid) !important;
-    height: 20px
+    font-size: 50px ;
+    color: var(--orchid);
+    height: 20px;
+}
+.skill__square i:hover {
+    color: var(--mint);
 }
 .skill__square h6 {
     text-align: center;
     margin: auto;
+    color: var(--dark);
+    text-shadow: 2px 3px 4px var(--foggy);
     font-size: 1em;
-    padding-top: 5px
+    padding-top: 5px;
 }
-.skill__square i:hover {
-    color: var(--mint) !important;
+.skill__square h6:hover {
+    color: var(--mint);
+    text-shadow: 2px 3px 4px var(--dark);
+}
+
+.third {
+    width: 75%;
+    margin: 10% auto;
+    align-items: center;
+    padding: 3%;
+    justify-content: center;
+}
+.project-name {
+    text-decoration: none;
+}
+.project-card {
+    padding: 15px;
+    margin-top: 15px;
+    box-shadow: rgba(17, 12, 46, .15) 0 48px 100px 0;
+}
+.project-card h2 {
+    color: var(--orchid);
+    margin-top: 10px;
+    margin-left: 3%;
+    font-weight: 500;
+}
+.project-card h2:hover {
+    color: var(--mint);
+    text-decoration: none;
+}
+.project-card h3 {
+    text-align: left;
+    font-size: 1rem;
+    margin-left: 3%;
+}
+.project-card h4 {
+    color: var(--mint);
+    text-shadow: 2px 3px 4px var(--mist);
+    margin-top: 10px;
+    margin-left: 3%;
+    font-weight: 500;
+}
+.project-card h4:hover {
+    color: var(--orchid);
+}
+.image-project {
+    height: 300px;
+    width: auto;
+    margin-bottom: 20px;
+    overflow: hidden;
+    cursor: pointer !important;
+}
+.img-pro {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.image-project:hover .img-pro {
+    transform: scale(1.2);
+}
+
+.pp-head {
+    text-align: center;
+}
+.pp-head-line {
+    box-sizing: border-box;
+    width: 30%;
+    padding-bottom: 5px;
+    border-bottom: solid 2px var(--orchid);
+    margin-bottom: 15px;
+}
+.pp-text {
+    font-size: 1.5rem;
+}
+
+a {
+    color: transparent !important;
 }
 
 .parallax {
@@ -366,25 +369,25 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 .git-form {
     width: 1160px;
     box-sizing: border-box;
     display: block;
     margin: 3rem 3rem 0 3rem;
-    background-color: #fff;
-    max-height: 80vh
+    background-color: var(--light);
+    max-height: 80vh;
 }
 .git-head-div {
     box-sizing: border-box;
     padding-top: 5%;
     padding-bottom: 15px;
     width: 30%;
-    border-bottom: 3px solid #000;
-    color: #000;
+    border-bottom: 3px solid var(--orchid);
+    color: var(--dark);
     font-weight: 500;
-    text-align: center
+    text-align: center;
 }
 
 #myFab {
@@ -400,12 +403,12 @@ a {
     height: 60px;
     text-align: center;
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--orchid);
     text-shadow: 2px 3px 4px var(--mist);
     transition: .5;
 }
 .fab:hover {
-    color: var(--hover-color);
+    color: var(--mint);
 }
 .fas {
     vertical-align: bottom;
@@ -414,13 +417,32 @@ a {
     height: 60px;
     text-align: center;
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--orchid);
     text-shadow: 2px 3px 4px var(--mist);
 
     transition: .5;
 }
 .fas:hover {
-    color: var(--hover-color);
+    color: var(--mint);
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topButton {
+    color: var(--orchid);
+    border: transparent;
+    background-color: transparent;
+}
+#top {
+    color: var(--mint);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#top:hover {
+    color: var(--orchid);
 }
 
 a:hover,
@@ -433,28 +455,28 @@ a:focus {
     border-radius: 10px;
     background-color: transparent;
     border: transparent;
-    box-shadow: 5px 3px 7px 4px #8c8c8c;
+    box-shadow: 5px 3px 7px 4px var(--gray);
 }
 .myPic:hover {
-    box-shadow: 5px 3px 7px 4px #ccffe6;
+    box-shadow: 5px 3px 7px 4px var(--mint);
 
 }
 .myPic.inverse-dark {
-    background-color: #000
+    background-color: var(--dark);
 }
 
 .Copy {
-    color: #fff !important;
+    color: var(--light) !important;
     font-weight: 500;
     padding-top: 2%
 }
 
 ::-moz-selection {
-    color: #fff;
+    color: var(--light);
     background: var(--orchid)
 }
 ::selection {
-    color: #fff;
+    color: var(--light);
     background: var(--orchid)
 }
 
@@ -533,4 +555,11 @@ a:focus {
         align-items: center;
         justify-content: center;
     }   
+}
+@media (max-width:320px) {
+    .profile {
+        width: 75%;
+        align-items: center;
+        justify-content: center;
+    }
 }
