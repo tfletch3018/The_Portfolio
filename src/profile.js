@@ -98,7 +98,7 @@ const projects = [
   {
     id: "project5",
     name: "The Portfolio",
-    skills: ["JS: 78.0%, CSS: 13.0%, HTML: 9.0%"],
+    skills: ["JS: 57.7%, CSS: 35.0%, HTML: 7.3%"],
     deployed:"https://tfletch3018.github.io/The_Portfolio/",
     url: "https://github.com/tfletch3018/The_Portfolio",
   },
