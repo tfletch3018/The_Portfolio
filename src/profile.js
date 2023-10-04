@@ -125,7 +125,7 @@ const miscellaneous = [
   },
   {
     id: "misc3",
-    name: "I love to travel! ✈️😉(gift shop in St. Croix)",
+    name: "I love to travel! ✈️😉",
   },
 ];
 
