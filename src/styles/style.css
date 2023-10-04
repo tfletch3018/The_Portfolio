@@ -527,7 +527,7 @@ a:focus {
         font-size: 20px
     }
 }
-@media (min-width:320px) {
+@media (max-width:320px) {
     .profile {
         width: 250px;
     }   
