@@ -5,6 +5,7 @@
     --primary-color:  #ccccff;
     --hover-color:  #ccffe6;
     --orchid:#ccccff;
+    --mint: #ccffe6;
     --cloudy: #bfbfbf;
     --mist:#333333;
     --golden:#ffff66;
@@ -110,6 +111,35 @@ h2 {
     font-size: 1rem;
     font-weight:400;
 }
+
+.third {
+    width:75%;
+    margin:10% auto;
+    align-items:center;
+    padding:3%;
+    justify-content:center
+}
+.project-card {
+    padding:15px;
+    margin-top:15px;
+    box-shadow:rgba(17,12,46,.15) 0 48px 100px 0
+}
+.project-card h2 {
+    color:var(--orchid);
+    margin-top:10px;
+    margin-left:3%;
+    font-weight:500
+}
+.project-card h2:hover {
+    color:var(--mint);
+    text-decoration:none
+}
+.project-card h3 {
+    text-align:left;
+    font-size:1rem;
+    margin-left:3%
+}
+
 .project-card h4 {
     color: #ccffe6;
     text-shadow: 2px 3px 4px var(--mist);
@@ -146,8 +176,23 @@ a {
     text-shadow: 2px 3px 4px var(--mist); 
 }
 
+.skill__square {
+    display:inline;
+    margin:15px 0 !important
+}
+.skill__square i {
+    font-size:50px !important;
+    color: var(--orchid) !important;
+    height:20px
+}
+.skill__square h6 {
+    text-align:center;
+    margin:auto;
+    font-size:1em;
+    padding-top:5px
+}
 .skill__square i:hover {
-    color: var(--hover-color) !important;
+    color: var(--mint) !important;
 }
 
 
