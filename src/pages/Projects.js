@@ -1,24 +1,24 @@
-import React from "react";
+// import React from "react";
 
 
-function Projects() {
-  return (
-    <div>
+// function Projects() {
+//   return (
+//     <div>
       
-            <h1>
-              Projects
-            </h1>
-            <p>Text</p>
-            <p>Text</p>
-            <p>Text</p>
-            <p>Text</p>
-            <p>Text</p>
-            <p>Text</p>
-            <p>Text</p>
+//             <h1>
+//               Projects
+//             </h1>
+//             <p>Text</p>
+//             <p>Text</p>
+//             <p>Text</p>
+//             <p>Text</p>
+//             <p>Text</p>
+//             <p>Text</p>
+//             <p>Text</p>
            
             
-    </div>
-  );
-}
+//     </div>
+//   );
+// }
 
-export default Projects;
+// export default Projects;

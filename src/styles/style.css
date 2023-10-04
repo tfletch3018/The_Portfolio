@@ -150,6 +150,33 @@ h2 {
 .project-card h4:hover {
     color: #ccccff;
 }
+
+.image-project {
+    height:300px;
+    width:auto;
+    margin-bottom:20px;
+    overflow:hidden;
+    cursor:pointer!important
+}
+.img-pro {
+    height:100%;
+    width:100%;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    -o-transition:all .5s;
+    transition:all .5s
+}
+.image-project:hover .img-pro {
+    transform:scale(1.2)
+}
+
+.pp-head{text-align:center}
+.pp-head-line{box-sizing:border-box;width:30%;padding-bottom:5px;border-bottom:solid 2px var(--primary-color);margin-bottom:15px}
+.pp-text{font-size:1.5rem}
+
 h5 {
     font-size:  2.5rem !important;
     font-weight: 700 !important;
