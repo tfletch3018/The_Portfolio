@@ -139,6 +139,33 @@ input:checked+.slider:before {
     cursor: crosshair
 }
 
+h1 {
+    color: var(--grayer);
+    text-shadow: 2px 3px 4px var(--dark);
+}
+
+h1:hover {
+    color: var(--orchid) !important;
+}
+
+h2 {
+    text-shadow: 2px 3px 4px var(--mist);
+}
+
+.h4,
+h4 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+h5 {
+    font-size: 2.5rem !important;
+    font-weight: 700 !important;
+    color: var(--mint) !important;
+    text-shadow: 2px 3px 4px var(--mist);
+}
+h5:hover {
+    color: var(--orchid) !important;
+}
 .Header {
     text-align: center;
     align-items: center;
@@ -149,7 +176,7 @@ input:checked+.slider:before {
     font-family: Montserrat, sans-serif
 }
 .Header h1 {
-    color: var(--dark);
+    color: var(--grayer);
     margin: auto;
     text-align: center;
     font-size: 5.5rem;
@@ -164,6 +191,8 @@ input:checked+.slider:before {
     width: 12em;
     margin: 0 auto;
     border-right: 2px solid rgba(25, 25, 25, .75);
+    color: var(--grayer);
+    text-shadow: 2px 3px 4px var(--orchid);
     font-size: 180%;
     text-align: center;
     white-space: nowrap;
@@ -197,33 +226,6 @@ input:checked+.slider:before {
     margin-top: -100vh !important
 }
 
-h1 {
-    text-shadow: 2px 3px 4px var(--mist);
-}
-
-h1:hover {
-    color: var(--orchid) !important;
-}
-
-h2 {
-    text-shadow: 2px 3px 4px var(--mist);
-}
-
-.h4,
-h4 {
-    font-size: 1rem;
-    font-weight: 400;
-}
-h5 {
-    font-size: 2.5rem !important;
-    font-weight: 700 !important;
-    color: var(--mint) !important;
-    text-shadow: 2px 3px 4px var(--mist);
-}
-h5:hover {
-    color: var(--orchid) !important;
-}
-
 .see {
     background-color: var(--orchid);
     color: var(--light);
@@ -246,6 +248,20 @@ h5:hover {
     padding-bottom: 7px;
     padding-left: 15px;
     padding-right: 7px
+}
+
+.myPic {
+    border-radius: 10px;
+    background-color: transparent;
+    border: transparent;
+    box-shadow: 5px 3px 7px 4px var(--gray);
+}
+.myPic:hover {
+    box-shadow: 5px 3px 7px 4px var(--mint);
+
+}
+.myPic.inverse-dark {
+    background-color: var(--dark);
 }
 
 .lead {
@@ -432,7 +448,8 @@ a {
     justify-content: center;
 }
 .topButton {
-    color: var(--orchid);
+    color: var(--grayer);
+    text-shadow: 2px 3px 4px var(--dark);
     border: transparent;
     background-color: transparent;
 }
@@ -440,33 +457,19 @@ a {
     color: var(--mint)
 }
 #top {
-    color: var(--mint);
+    color: var(--orchid);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 #top:hover {
-    color: var(--orchid);
+    color: var(--mint);
 }
 
 a:hover,
 a:active,
 a:focus {
     text-decoration-line: none;
-}
-
-.myPic {
-    border-radius: 10px;
-    background-color: transparent;
-    border: transparent;
-    box-shadow: 5px 3px 7px 4px var(--gray);
-}
-.myPic:hover {
-    box-shadow: 5px 3px 7px 4px var(--mint);
-
-}
-.myPic.inverse-dark {
-    background-color: var(--dark);
 }
 
 .Copy {
