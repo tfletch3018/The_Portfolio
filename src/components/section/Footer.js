@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 function ScrollButton() {
 
     const scrollTo = () => {
@@ -11,15 +10,51 @@ function ScrollButton() {
         })
     }
 
+    const scrollTo1 = () => {
+        document.getElementById("about").scrollIntoView();
+    }
+
+    const scrollTo2 = () => {
+        document.getElementById("projects").scrollIntoView();
+    }
+
+    const scrollTo3 = () => {
+        document.getElementById("interests").scrollIntoView();
+    }
+
     return (
         <>
             <div>
                 <button className="topButton"
                     onClick={scrollTo}
                     alt="Back to Top">
-                    <i id="top" 
-                    className="fas fa-arrow-alt-circle-up">
-                    </i>Back to Top
+                    <i id="top"
+                        className="fas fa-eye">
+                    </i>Home
+                </button>
+
+                <button className="topButton"
+                    onClick={scrollTo1}
+                    alt="Back to Top">
+                    <i id="top"
+                        className="far fa-id-badge">
+                    </i>About
+                </button>
+
+                <button className="topButton"
+                    onClick={scrollTo2}
+                    alt="Back to Top">
+                    <i id="top"
+                        className="fas fa-laptop-code">
+                    </i>Projects
+                </button>
+
+                <button className="topButton"
+                    onClick={scrollTo3}
+                    alt="Back to Top">
+                    <i id="top"
+                        className="fas fa-music">
+                    </i>Interests
                 </button>
             </div>
         </>

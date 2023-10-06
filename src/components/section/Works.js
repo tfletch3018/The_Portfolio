@@ -9,7 +9,7 @@ function Works() {
         <>
             <div data-aos="zoom-in-up" data-aos-once="true" className="third">
                 <>
-                    <div className="pp-head-line mx-auto text-center">
+                    <div id="projects" className="pp-head-line mx-auto text-center">
                         <h5 id="Projects" className="pp-head">{section3Title}</h5>
                     </div>
                 </>
@@ -24,7 +24,7 @@ function Works() {
 
             <div className="third">
                 <>
-                    <div className="pp-head-line mx-auto text-center">
+                    <div id="interests" className="pp-head-line mx-auto text-center">
                         <h5 id="Projects" className="pp-head">{section4Title}</h5>
                     </div>
                 </>

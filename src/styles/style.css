@@ -241,7 +241,7 @@ h5:hover {
 .see:hover {
     background-color: var(--mint)
 }
-.fa-eye {
+#topEye {
     color: var(--light) !important;
     font-size: 20px;
     padding-top: 7px;
@@ -435,10 +435,23 @@ a {
     text-decoration: none;
     color: var(--orchid);
     text-shadow: 2px 3px 4px var(--mist);
-
     transition: .5;
 }
 .fas:hover {
+    color: var(--mint);
+}
+.far {
+    vertical-align: bottom;
+    padding: 10px;
+    font-size: 30px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--orchid);
+    text-shadow: 2px 3px 4px var(--mist);
+    transition: .5;
+}
+.far:hover {
     color: var(--mint);
 }
 
@@ -448,22 +461,25 @@ a {
     justify-content: center;
 }
 .topButton {
-    color: var(--grayer);
+    color: var(--orchid);
     text-shadow: 2px 3px 4px var(--dark);
+    font-size: 11px;
+    font-weight: 500;
     border: transparent;
     background-color: transparent;
 }
 .topButton:hover {
-    color: var(--mint)
+    color: var(--grayer)
 }
 #top {
-    color: var(--orchid);
+    color: var(--gray);
     display: flex;
+    font-size: 20px;
     align-items: center;
     justify-content: center;
 }
 #top:hover {
-    color: var(--mint);
+    color: var(--orchid);
 }
 
 a:hover,
@@ -552,7 +568,7 @@ a:focus {
         left: 18%;
         font-size: 1rem
     }
-    .fa-eye {
+    #topEye {
         font-size: 20px
     }
 }
