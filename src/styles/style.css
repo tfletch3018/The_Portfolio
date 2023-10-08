@@ -140,7 +140,7 @@ input:checked+.slider:before {
 }
 
 h1 {
-    color: var(--grayer);
+    color: var(--gray);
     text-shadow: 2px 3px 4px var(--dark);
 }
 
@@ -269,7 +269,9 @@ h5:hover {
 }
 .about-text {
     width: 80%;
-    padding: 2%
+    padding: 1%;
+    margin: 1px 25px;
+    /* padding: 22px 52px 2px 1px; */
 }
 
 .skill__square {
@@ -400,7 +402,7 @@ a {
     padding-top: 5%;
     padding-bottom: 15px;
     width: 30%;
-    border-bottom: 3px solid var(--orchid);
+    /* border-bottom: 3px solid var(--orchid); */
     color: var(--dark);
     font-weight: 500;
     text-align: center;
@@ -460,6 +462,16 @@ a {
     align-items: center;
     justify-content: center;
 }
+.navBorder {
+    color: var(--orchid);
+    text-shadow: 2px 3px 4px var(--mist);
+    font-weight:900;
+}
+.navBorder:hover {
+    color: var(--mint);
+    text-shadow: 2px 3px 4px var(--orchid);
+}
+
 .topButton {
     color: var(--orchid);
     text-shadow: 2px 3px 4px var(--dark);
@@ -511,7 +523,8 @@ a:focus {
 
 @media (max-width:800px) {
     .lead {
-        font-weight: 300
+        font-weight: 300;
+        text-align: center
     }
     .Header h1 {
         font-size: 2.5rem
@@ -584,5 +597,8 @@ a:focus {
         width: 75%;
         align-items: center;
         justify-content: center;
+    }
+    .lead {
+        text-align: center
     }
 }

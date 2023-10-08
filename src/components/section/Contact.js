@@ -1,7 +1,6 @@
 import React from 'react'
 import Container from '../Container';
 import { contact, section5Title, social } from '../../profile'
-// import MyScroll from "./Footer";
 import ScrollButton from "./Footer"
 
 function Contact() {
@@ -16,6 +15,11 @@ function Contact() {
                             <h1 id="Contact" className="git-head">{section5Title}</h1>
                         </div>
                     </>
+
+                    <div className='center'>
+                                    <p className='navBorder'>_____________________________________________</p>
+                                </div>
+
 
                     <div className="d-flex justify-content-center align-items-center flex-column">
                         <p className="lead justify-content-center align-items-center">
@@ -35,7 +39,11 @@ function Contact() {
                                 <br />
 
                                 <>
+                                <div className='center'>
+                                    <p className='navBorder'>_____________________________________________</p>
+                                </div>
                                     <div className="center">
+                                        
                                         <ScrollButton />
                                     </div>
                                 </>

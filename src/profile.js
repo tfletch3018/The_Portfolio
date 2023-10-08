@@ -111,7 +111,7 @@ const projects = [
   },
 ];
 
-const section4Title = "Hobbies and Random Fun Stuff";
+const section4Title = "Interests";
 const miscellaneous = [
   {
     id: "misc1",
