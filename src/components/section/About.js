@@ -12,9 +12,12 @@ function About() {
                 <div data-aos="zoom-in-up" data-aos-once="true" className="row">
                     <div className="col-12 offset-md-1 col-md-12 about">
                         <div className="About">
-                            <h5 id="About">{section2title}</h5>
+                            <h5 className='center' id="About">{section2title}</h5>
                         </div>
+
+                        <div className='center'>
                         <img className="myPic profile" id="not-dark2" src={profile} alt="profile" />
+                        </div>
                         <p className="lead about-text">
                             {about.paragraph}
                         </p>
