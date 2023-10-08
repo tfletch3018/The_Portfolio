@@ -601,4 +601,8 @@ a:focus {
     .lead {
         text-align: center
     }
+    .center {
+        align-items: center;
+        justify-content: center;
+    }
 }
