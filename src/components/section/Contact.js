@@ -34,18 +34,18 @@ function Contact() {
                                 {social.resume && <a title="Download Resume" href={social.resume} download><i className="fas fa-download"></i></a>}
                                 <br />
 
-                  <>  
-                  <div className="center">              
-                                <ScrollButton/>
-                                </div> 
-                                </> 
+                                <>
+                                    <div className="center">
+                                        <ScrollButton />
+                                    </div>
+                                </>
                             </div>
 
                         </div>
                     </div>
                 </div>
 
-                <p id="not-dark" className="Copy">2021 © Copyright <strong>{contact.copyright}</strong>. All Rights Reserved</p>
+                <p id="not-dark" className="Copy">2023 © Copyright <strong>{contact.copyright}</strong>. All Rights Reserved</p>
             </div>
 
         </Container>
