@@ -230,7 +230,7 @@ h5:hover {
     background-color: var(--orchid);
     color: var(--light);
     text-shadow: 2px 3px 4px var(--mist);
-    box-shadow: 4px 2px 6px 3px var(--foggy), 5px 3px 7px 4px var(--gray);
+    box-shadow: 5px 3px 7px 4px var(--gray);
     border: transparent;
     position: absolute;
     padding: 5px 15px;
@@ -255,7 +255,7 @@ h5:hover {
     border-radius: 10px;
     background-color: transparent;
     border: transparent;
-    box-shadow: 5px 3px 7px 4px var(--gray);
+    box-shadow: 4px 2px 6px 3px var(--foggy), 5px 3px 7px 4px var(--gray);
 }
 .myPic:hover {
     box-shadow: 5px 3px 7px 4px var(--mint);
