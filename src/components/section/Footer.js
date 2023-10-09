@@ -27,7 +27,7 @@ function ScrollButton() {
             <div>
                 <button className="topButton"
                     onClick={scrollTo}
-                    alt="Back to Top">
+                    alt="Home">
                     <i id="top"
                         className="fas fa-eye">
                     </i>Home
@@ -35,15 +35,16 @@ function ScrollButton() {
 
                 <button className="topButton"
                     onClick={scrollTo1}
-                    alt="Back to Top">
+                    alt="About Me">
                     <i id="top"
-                        className="far fa-id-badge">
+                        // className="far fa-id-badge">
+                            className="fas fa-photo-video">
                     </i>About
                 </button>
 
                 <button className="topButton"
                     onClick={scrollTo2}
-                    alt="Back to Top">
+                    alt="Projects">
                     <i id="top"
                         className="fas fa-laptop-code">
                     </i>Projects
@@ -51,7 +52,7 @@ function ScrollButton() {
 
                 <button className="topButton"
                     onClick={scrollTo3}
-                    alt="Back to Top">
+                    alt="Interests">
                     <i id="top"
                         className="fas fa-music">
                     </i>Interests

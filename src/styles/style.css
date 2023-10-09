@@ -141,7 +141,7 @@ input:checked+.slider:before {
 
 h1 {
     color: var(--gray);
-    text-shadow: 2px 3px 4px var(--dark);
+    text-shadow: 2px 3px 4px var(--orchid), 2px 3px 4px var(--dark);
 }
 
 h1:hover {
@@ -230,6 +230,7 @@ h5:hover {
     background-color: var(--orchid);
     color: var(--light);
     text-shadow: 2px 3px 4px var(--mist);
+    box-shadow: 4px 2px 6px 3px var(--foggy), 5px 3px 7px 4px var(--gray);
     border: transparent;
     position: absolute;
     padding: 5px 15px;
@@ -271,7 +272,6 @@ h5:hover {
     width: 80%;
     padding: 1%;
     margin: 1px 25px;
-    /* padding: 22px 52px 2px 1px; */
 }
 
 .skill__square {
@@ -462,7 +462,7 @@ a {
     align-items: center;
     justify-content: center;
 }
-.navBorder {
+/* .navBorder {
     color: var(--orchid);
     text-shadow: 2px 3px 4px var(--mist);
     font-weight:900;
@@ -470,7 +470,7 @@ a {
 .navBorder:hover {
     color: var(--mint);
     text-shadow: 2px 3px 4px var(--orchid);
-}
+} */
 
 .topButton {
     color: var(--orchid);
