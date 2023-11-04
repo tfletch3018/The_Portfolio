@@ -16,11 +16,6 @@ function Contact() {
                         </div>
                     </>
 
-                    {/* <div className='center'>
-                        <p className='navBorder'></p>
-                    </div> */}
-
-
                     <div className="d-flex justify-content-center align-items-center flex-column">
                         <p className="lead justify-content-center align-items-center">
                             {contact.pitch}
@@ -40,9 +35,6 @@ function Contact() {
                                 <br />
 
                                 <>
-                                    {/* <div className='center'>
-                                        <p className='navBorder'>            </p>
-                                    </div> */}
                                     <div className="center">
                                         <ScrollButton />
                                     </div>

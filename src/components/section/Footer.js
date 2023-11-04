@@ -37,7 +37,6 @@ function ScrollButton() {
                     onClick={scrollTo1}
                     alt="About Me">
                     <i id="top"
-                        // className="far fa-id-badge">
                             className="fas fa-photo-video">
                     </i>About
                 </button>

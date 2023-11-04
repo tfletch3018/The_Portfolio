@@ -1,9 +1,9 @@
-# The_Portfolio
+# The Portfolio
 
 ## Description
-- A portfolio showcasing my work and interests created with React JS.
+- A portfolio website showcasing my work and interests created with React JS.
 
-## Installation
+### Installation
 ```
 •Open up your terminal of choice
 •Visit this repo at Github/ select clone repo/ copy to clipboard
@@ -11,7 +11,7 @@
 •cd into the new repo
 •installation completed!
 ```
-## Usage
+### Usage
 
 <img src="src\styles\images\demo.gif" />
 
@@ -19,7 +19,7 @@
 
 <img src="src\styles\images\screenshot1.png" /> <img src="src\styles\images\screenshot2.png" /> <img src="src\styles\images\screenshot3.png" /> <img src="src\styles\images\screenshot4.png" />
 
-## License
+### License
 MIT License
 
 Copyright (c) [2021] [Tonya Fletcher]
@@ -42,15 +42,21 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## Badges
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+### Badges
+[![General badge](https://img.shields.io/badge/Skills-HTML5-thistle.svg)](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) [![General badge](https://img.shields.io/badge/Skills-CSS3-thistle.svg)](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)  [![General badge](https://img.shields.io/badge/Skills-JavaScript-thistle.svg)](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-### Get in Touch
-[Linkedin](http://linkedin.com/in/tonya-fletcher-733a9450)
+[![General badge](https://img.shields.io/badge/License-MIT-PaleGreen.svg)](https://img.shields.io/badge/License-MIT-blue.svg)
 
-## Features
-[My repo](https://github.com/tfletch3018/The_Portfolio)
 
-[Deployed on Github-Pages](https://tfletch3018.github.io/The_Portfolio/)
 
-[Watch the demo!](https://drive.google.com/file/d/15TCmPm2iWIYAgb_uvQCxjvfi3WZ0vy6G/view?usp=sharing)
+### Features
+* React-bootstrap
+* React-particles-js
+* Responsive design
+* Portfolio Website
+* [Watch the demo!](https://drive.google.com/file/d/15TCmPm2iWIYAgb_uvQCxjvfi3WZ0vy6G/view?usp=sharing)
+
+### Get in Touch!
+<a href="https://www.linkedin.com/in/tonya-fletcher-733a9450/"><img src="src\styles\images\linkedin.png"></a> <a href="https://github.com/tfletch3018"><img src="src\styles\images\github.png"></a> <a href="https://www.instagram.com/tfletch4504/"><img src="src\styles\images\instagram.png"></a> <a href="https://www.facebook.com/tonya.r.fletcher/"><img src="src\styles\images\facebook.png"></a> <a href="https://www.tiktok.com/@tfletche3018?is_from_webapp=1&sender_device=pc"><img src="src\styles\images\tiktok.png"></a>
+
+<a href="https://tfletch3018.github.io/The_Portfolio/"><img src="src\styles\images\myBitmoji.png"></a> <a href="https://drive.google.com/file/d/131RLw2MfSL49xRvL0DOoKMkeIvbqPRRE/view"><img src="src\styles\images\resume.png"></a>
