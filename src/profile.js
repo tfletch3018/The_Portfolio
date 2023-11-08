@@ -69,38 +69,38 @@ const section3Title = "Projects";
 const projects = [
   {
     id: "project1",
+    name: "burrowes",
+    skills: ["JS: 71.3%, CSS: 25.0%, HTML: 3.7%"],
+    deployed:"https://tfletch3018.github.io/burrowes/",
+    url: "https://github.com/tfletch3018/burrowes",
+  },
+  {
+    id: "project2",
     name: "myMusic",
     skills: ["JS: 52.0%, HTML: 24.5%, CSS: 23.5%"],
     deployed: "https://main.d3oxu15funiko7.amplifyapp.com/",
     url: "https://github.com/tfletch3018/myMusic",
   },
   {
-    id: "project2",
+    id: "project3",
     name: "babysittr",
     skills: ["JS: 86.0%, HTML: 8.9%, CSS: 5.1%"],
     deployed:"https://tfletch3018.github.io/babysittr/",
     url: "https://github.com/tfletch3018/babysittr",
   },
   {
-    id: "project3",
+    id: "project4",
     name: "Weather Dashboard",
     skills: ["JS: 64.1%, HTML: 25%, CSS: 10.9%"],
     deployed:"https://tfletch3018.github.io/Weather-Dashboard/",
     url: "https://github.com/tfletch3018/Weather-Dashboard",
   },
   {
-    id: "project4",
+    id: "project5",
     name: "The Employee Directory",
     skills: ["JS: 76.3%, HTML: 14.2%, CSS: 9.5%"],
     deployed:"https://tfletch3018.github.io/the-employee-directory/",
     url: "https://github.com/tfletch3018/the-employee-directory",
-  },
-  {
-    id: "project5",
-    name: "The Portfolio",
-    skills: ["JS: 57.7%, CSS: 35.0%, HTML: 7.3%"],
-    deployed:"https://tfletch3018.github.io/The_Portfolio/",
-    url: "https://github.com/tfletch3018/The_Portfolio",
   },
   {
     id: "project6",
