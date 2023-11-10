@@ -70,7 +70,7 @@ const projects = [
   {
     id: "project1",
     name: "burrowes",
-    skills: ["JS: 71.3%, CSS: 25.0%, HTML: 3.7%"],
+    skills: ["JS: 75.3%, CSS: 21.1%, HTML: 3.6%"],
     deployed:"https://tfletch3018.github.io/burrowes/",
     url: "https://github.com/tfletch3018/burrowes",
   },
